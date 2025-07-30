@@ -24,8 +24,6 @@ def save_vault(rows):
         writer = csv.DictWriter(f, fieldnames=['site', 'user', 'password'])
         writer.writeheader()
         writer.writerows(rows)
-
-
 def add_account():
     site = input("网站：").strip()
     user = input("用户名：").strip()
