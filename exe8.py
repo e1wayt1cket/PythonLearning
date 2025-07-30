@@ -38,6 +38,6 @@ def delete(name):
     if name in data:
         del data[name]
         _save(data)
-        print(f"✅ Deleted {name}")
+        print(f" Deleted {name}")
     else:
-        print("❌ Not found")
+        print(" Not found")
