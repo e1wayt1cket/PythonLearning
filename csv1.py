@@ -1,4 +1,3 @@
-# 将列表写入 students.csv 并读回
 import csv
 from pathlib import Path
 
